@@ -9,7 +9,7 @@ btnIngresar.addEventListener("click",function(){
             
             <input type="checkbox">
             <h2>${inputTodo.value}</h2>
-            <img src='images/bx-x.svg' alt='borrar'>
+            <img src='images/bx-x.svg' alt='borrar' class="borrarItem">
             
         </div>`);
         
