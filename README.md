@@ -1,2 +1,2 @@
 # Lista-TODO
-aun no terminada
+falta agregar algunas cosas y mejorarlo
