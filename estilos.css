@@ -6,11 +6,11 @@
 }
 body{
     
-    background-color: #E3FDFD;
+    background-color: #F5EFE7;
 }
 #input-item{
     height: 3rem;
-    width: 30%;
+    width: 50%;
     border-radius: 10px;
     outline:none;
     font-size: 25px;
@@ -18,21 +18,18 @@ body{
     margin: 1%;
 }
 #btnIngresar{
-    width: 10%;
+    all: unset;
+    border-radius: 12px;
+    padding: 3px;
     height: 3.15rem;
-    background-color: #CBF1F5;
-    
-    outline:none;
+    background-color: #4F709C;
     cursor: pointer;
 }
-#btnIngresar:focus{
-    background-color: #A6E3E9;
-    color: azure;
-}
+
 .contenedor-ingreso{
     margin: 5%;
     color: #ffffff;
-    background-color: #71C9CE;
+    background-color: #213555;
     border-radius: 12px;
     height: 20vh;
     display: flex;
@@ -43,36 +40,26 @@ body{
 }
 .contenedor-lista{
     display: flex;
-    background-color: #71C9CE;
+    background-color: #213555;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
     border-radius: 12px;
 }
 .ingresado{
-    margin-top: 1%;
-    margin-bottom: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: auto;
-    width: 500px;
+    width: 70%;
     color: #ffffff;
     border: 1px solid #ffffff;
     padding: 1%;
     border-radius: 10px;
-    
+    margin: 5px;
 }
 .borrarItem{
     cursor: pointer;
 }
-button{ 
-    outline: none;
-    background-color: #A6E3E9;
-    border: 1px solid #A6E3E9; 
-    cursor: pointer;
-    text-align: center;
-    align-items: center;
-    border-radius: 10px;
-} 
